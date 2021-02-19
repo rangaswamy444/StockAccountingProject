@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[No of rows are::5   No of cells in first row::10]]>
+    </line>
+    <line>
+      <![CDATA[customer matching with table::Customer-00000000646    Customer-00000000646]]>
+    </line>
+    <line>
+      <![CDATA[customer Not matching with table::Customer-00000000647    Customer-00000000618]]>
+    </line>
+    <line>
+      <![CDATA[customer matching with table::Customer-00000000648    Customer-00000000648]]>
+    </line>
+    <line>
+      <![CDATA[customer matching with table::Customer-00000000649    Customer-00000000649]]>
+    </line>
+    <line>
+      <![CDATA[customer matching with table::Customer-00000000650    Customer-00000000650]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="73331" started-at="2021-02-11T09:24:50Z" finished-at="2021-02-11T09:26:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="73331" started-at="2021-02-11T09:24:50Z" finished-at="2021-02-11T09:26:03Z">
+      <class name="DriverFactory.DataDrivenCustomerScript">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DriverFactory.DataDrivenCustomerScript@28d25987]" name="setUp" is-config="true" duration-ms="13983" started-at="2021-02-11T14:54:50Z" finished-at="2021-02-11T14:55:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="customercreation()[pri:0, instance:DriverFactory.DataDrivenCustomerScript@28d25987]" name="customercreation" duration-ms="58971" started-at="2021-02-11T14:55:04Z" finished-at="2021-02-11T14:56:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are::5   No of cells in first row::10]]>
+            </line>
+            <line>
+              <![CDATA[customer matching with table::Customer-00000000646    Customer-00000000646]]>
+            </line>
+            <line>
+              <![CDATA[customer Not matching with table::Customer-00000000647    Customer-00000000618]]>
+            </line>
+            <line>
+              <![CDATA[customer matching with table::Customer-00000000648    Customer-00000000648]]>
+            </line>
+            <line>
+              <![CDATA[customer matching with table::Customer-00000000649    Customer-00000000649]]>
+            </line>
+            <line>
+              <![CDATA[customer matching with table::Customer-00000000650    Customer-00000000650]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customercreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.DataDrivenCustomerScript@28d25987]" name="tearDown" is-config="true" duration-ms="307" started-at="2021-02-11T14:56:03Z" finished-at="2021-02-11T14:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DriverFactory.DataDrivenCustomerScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
